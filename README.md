@@ -11,7 +11,7 @@ Ahora agregale semáforos para asegurar que haya solamente una vaca cruzando el 
 
 ### Variantes de vaquitas.py
 
-Ahora podés probar algunas variantes. En principio implementalas tomando como punto de partida la versión que hiciste en el punto anterior.
+Ahora podés probar algunas variantes. En principio implementalas todas por separado y siempre tomando como punto de partida la versión que hiciste en el punto anterior.
 
 * Como máximo haya 2 vacas cruzando el puente a la vez. Si te animás, que sean N.
 * Que haya dos puentes.
