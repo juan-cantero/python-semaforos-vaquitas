@@ -30,3 +30,4 @@ Ahora podés probar algunas variantes. En principio implementalas todas por sepa
 * Como máximo haya 2 vacas cruzando el puente a la vez. Si te animás, que sean N.
 * Que haya dos puentes.
 * Que haya vacas caminando en ambos sentidos.
+* Que en vez de vacas, hayan liebres (muy muy rápidas) y *una* tortuga (muy muy lenta).
