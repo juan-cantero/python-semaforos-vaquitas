@@ -5,7 +5,9 @@ Las vacas caminan a diferentes velocidades, y el puente no soporta el paso de m�
 
 Mirá la implementación que esta ahora, correla algunas veces, y asegurate de entender a grandes rasgos el código.
 
-Ahora agregale semáforos para asegurar que haya solamente una vaca cruzando el puente a la vez.
+Ahora agregale semáforos para asegurar que haya solamente una vaca cruzando el puente a la vez. La ejecución debería verse así:
+
+![vaquitas cruzando el puente](assets/vaquitas.gif)
 
 ### Variantes de vaquitas.py
 
