@@ -11,7 +11,9 @@ Ahora agregale semáforos para asegurar que haya solamente una vaca cruzando el 
 
 Ahora podés probar algunas variantes. En principio implementalas todas por separado y siempre tomando como punto de partida la versión que hiciste en el punto anterior.
 
-* Como máximo haya 2 vacas cruzando el puente a la vez. Si te animás, que sean N.
+* Como máximo haya 2 vacas cruzando el puente a la vez. 
+* Lo mismo que antes, pero para una cantidad _N_ de vacas que se configura antes de ejecutar el programa.
 * Que haya dos puentes.
+* Lo mismo que antes, pero para una lista de puentes que se configura antes de ejecutar el programa. (Acá sería buena idea tener una clase `Puente` que indique dónde empieza y qué tan largo es).
 * Que haya vacas caminando en ambos sentidos.
-* Que en vez de vacas, hayan liebres (muy muy rápidas) y *una* tortuga (muy muy lenta).
+* Que además de vacas, hayan liebres (muy muy rápidas) y *una* tortuga (muy muy lenta).
