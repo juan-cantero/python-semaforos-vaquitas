@@ -2,6 +2,7 @@ import os
 import random
 import time
 import threading
+from puente import Puente
 
 inicioPuente = 10
 largoPuente = 20
@@ -18,7 +19,7 @@ class Vaca(threading.Thread):
     self.posicion += 1
 
   def dibujar(self):
-    print(' ' * self.posicion + ">")
+    print(' ' * self.posicion + "🐮")
 
   def run(self):
     while(self.posicion != inicioPuente):
@@ -40,16 +41,17 @@ for i in range(5):
 def cls():
   os.system('cls' if os.name=='nt' else 'clear')
 
-def dibujarPuente():
-  print(' ' * inicioPuente + '=' * largoPuente)
+puente = Puente(10,10)
+
+
 
 while(True):
   cls()
   print('Apreta Ctrl + C varias veces para salir...')
   print()
-  dibujarPuente()
+  puente.dibujar()
   for v in vacas:
     v.dibujar()
     
-  dibujarPuente()
+  puente.dibujar()
   time.sleep(0.2)
